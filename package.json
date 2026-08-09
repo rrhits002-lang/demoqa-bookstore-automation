@@ -1,0 +1,24 @@
+{
+  "name": "demoqa-bookstore-automation",
+  "version": "1.0.0",
+  "description": "Hybrid Playwright + JavaScript framework (POM) for DemoQA Book Store Application",
+  "main": "index.js",
+  "scripts": {
+    "test": "npx playwright test",
+    "test:headed": "npx playwright test --headed",
+    "test:debug": "npx playwright test --debug",
+    "report": "npx playwright show-report"
+  },
+  "keywords": [
+    "playwright",
+    "javascript",
+    "pom",
+    "demoqa",
+    "bookstore"
+  ],
+  "author": "Rohit",
+  "license": "ISC",
+  "devDependencies": {
+    "@playwright/test": "^1.62.1"
+  }
+}

@@ -74,7 +74,7 @@ test.describe.serial('reqres.in - User API flow', () => {
 
 test('3. Update user name and validate', async ({ request }) => {
   const updatedPayload = {
-    name: 'Rohit Sharma Updated',
+    name: 'Rohit Shinde Updated',
     job: 'SDET',
   };
 

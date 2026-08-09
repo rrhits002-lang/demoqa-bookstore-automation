@@ -1,8 +1,4 @@
-/**
- * BasePage
- * Holds reusable, generic actions that every Page Object can inherit.
- * Keeping these here avoids duplicating waits/click/type logic in every page class.
- */
+
 class BasePage {
   constructor(page) {
     this.page = page;

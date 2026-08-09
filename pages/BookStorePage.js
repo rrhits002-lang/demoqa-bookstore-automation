@@ -24,9 +24,7 @@ class BookStorePage extends BasePage {
     await this.page.waitForTimeout(500);
   }
 
-  /**
-   * Returns the row (Locator) whose Title column matches the given text.
-   */
+
   getRowByTitle(title) {
     return this.resultRows.filter({ hasText: title });
   }

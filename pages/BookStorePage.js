@@ -32,7 +32,6 @@ class BookStorePage extends BasePage {
   async isBookPresentInResults(title) {
     const row = this.getRowByTitle(title).first();
     try {
-      // Auto-retrying wait (up to 15s) instead of a one-shot count() check
       await expect(row).toBeVisible({ timeout: 15000 });
       return true;
     } catch {

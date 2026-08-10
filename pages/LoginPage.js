@@ -11,7 +11,6 @@ class LoginPage extends BasePage {
     this.usernameInput = page.locator('#userName');
     this.passwordInput = page.locator('#password');
     this.loginButton = page.locator('#login');
-    // Shown when login fails - useful for debugging, not asserted on happy path
     this.errorMessage = page.locator('#name');
   }
 

@@ -10,7 +10,6 @@ class ProfilePage extends BasePage {
   constructor(page) {
     super(page);
     this.userNameValue = page.locator('#userName-value');
-    // Role-based locators are more resilient to minor id/markup changes on demoqa
     this.logoutButton = page.getByRole('button', { name: /Logout/i });
     this.bookStoreButton = page.getByRole('button', { name: /Book Store/i });
   }
